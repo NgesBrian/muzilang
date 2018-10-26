@@ -1,0 +1,99 @@
+{
+  "About ABEBOH": {
+    "translation": "",
+    "origin": [
+      [
+        "src/About/About.js",
+        137
+      ]
+    ]
+  },
+  "There is always a way": {
+    "translation": "",
+    "origin": [
+      [
+        "src/About/About.js",
+        155
+      ]
+    ]
+  },
+  "We have a vision which is": {
+    "translation": "",
+    "origin": [
+      [
+        "src/About/About.js",
+        146
+      ]
+    ]
+  },
+  "about.abeboh1": {
+    "translation": "",
+    "defaults": "ABEBOH is a technology company located at Mile 18 Buea - Cameroon. It is a software and hardware building company, a music industry and an educational organization, founded in 2016 by Nges Brian and Co-founded by Dr. Chry Akem. ABEBOH has as a motto",
+    "origin": [
+      [
+        "src/About/About.js",
+        140
+      ]
+    ]
+  },
+  "about.abeboh2": {
+    "translation": "",
+    "defaults": "\"A GOAL IS A DREAM WITH A PLAN AND A DEADLINE\"",
+    "origin": [
+      [
+        "src/About/About.js",
+        143
+      ]
+    ]
+  },
+  "about.abeboh3": {
+    "translation": "",
+    "defaults": "to make technology available and affordable to everyone",
+    "origin": [
+      [
+        "src/About/About.js",
+        147
+      ]
+    ]
+  },
+  "about.abeboh4": {
+    "translation": "",
+    "defaults": "We make sure we go above client expectations, we believe happy client is good business and best advertisement, ABEBOH team welcomes you!!!. At ABEBOH our clients are our number ONE Priority. Our teams of well exprerienced engineers from different backgrounds and from different countries who have worked with top world technolgy companies and on different world leading technology products welcome you. At ABEBOH,",
+    "origin": [
+      [
+        "src/About/About.js",
+        150
+      ]
+    ]
+  },
+  "about.abeboh5": {
+    "translation": "",
+    "defaults": "As technonology is evolving, we evolve with it. we build all types of softwares ranging from websites, mobile applications and desktop applications. This is done with modern technologies widely accepted by developers around the world. We Belief that the satisfaction of our customers is the best way for advertisement We develop, Websites, mobile apps and desktop apps of any type and size depending on the taste of our customers and enviroment Our teams are willing to learn and quickly adapt with new technologies. We are so flexible in the way we handle our clients.",
+    "origin": [
+      [
+        "src/About/About.js",
+        156
+      ]
+    ]
+  },
+  "about.muzikol": {
+    "translation": "",
+    "defaults": "At ABEBOH, we belief that our Music reflects and shapes who we are as a people. How we behave, how we reflect and how we act is affected by the music we listen. A sense of communal Identity is found and shared in Music. Therefore our music is our heritage and our culture. Through our music, we identify with our people. We belief that music is food for the soul. As an artist, a producer, a DJ, an African music lover, I discovered that there was need to bring to existence a place on the Internet where we can share, maintain ,support and grow Africa music. This can be done by solving the two major problems faced by all Artist in Africa that is: the problems of Music Distribution and the the problem of making money from their craft. Muzikol therefore comes with a solution to the above problems. Muzikol is an online music Market and social Network built to meet the needs of the Africa music Lovers and Artist. Muzikol connects Musicians with music lovers to deepen their relationship and grow the market for the African Music Industry. We do this by creating opportunities to share content, sell music, sell merchandise, sell event tickets, book artist directly, chats , posting etc. Purchases can be done locally using Local payment methods such as MTN Mobile Money and internationally using Master and Visa Cards. Our Motto is “Music for Life”.",
+    "origin": [
+      [
+        "src/About/About.js",
+        117
+      ]
+    ]
+  },
+  "about.title1": {
+    "translation": "",
+    "defaults": "About Muzikol",
+    "origin": [
+      [
+        "src/About/About.js",
+        115
+      ]
+    ]
+  }
+}

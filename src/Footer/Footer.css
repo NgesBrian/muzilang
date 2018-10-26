@@ -1,0 +1,30 @@
+.muweb-footer-inside {
+    /*clear: both;*/
+}
+
+.muweb-footer-inside > ul > li {
+    display: inline;
+}
+
+.footer-item-copywrite {
+	margin-left: 2%;
+}
+
+.footer-item-home {
+	margin-left: 50%;
+}
+
+.footer-item-slight-seperation {
+	margin-left: 2%;
+}
+
+.footer-item-terms {
+	margin-left: 5%;
+}
+
+@media screen and (max-width: 768px){
+	.footer-item-home {
+		margin-left: 5%;
+	}
+
+}

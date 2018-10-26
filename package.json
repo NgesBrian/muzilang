@@ -1,0 +1,45 @@
+{
+  "name": "muweb",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@lingui/react": "^2.7.0",
+    "axios": "^0.18.0",
+    "history": "^4.6.3",
+    "mdbootstrap": "^4.5.11",
+    "mdbreact": "^4.8.0",
+    "react": "^16.5.2",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-datepicker": "^1.6.0",
+    "react-dom": "^16.5.2",
+    "react-facebook-login": "^4.1.0",
+    "react-html5video": "^2.5.1",
+    "react-image-gallery": "^0.8.11",
+    "react-infinite-calendar": "^2.3.1",
+    "react-js-google-maps": "^1.5.2",
+    "react-phone-number-input": "^2.2.8",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-select": "^2.0.0",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "jquery": "^3.3.1",
+    "video-react": "^0.13.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "add-locale": "lingui add-locale",
+    "extract": "lingui extract",
+    "compile": "lingui compile"
+  },
+  "devDependencies": {
+    "@lingui/cli": "^2.7.0",
+    "@lingui/macro": "^2.7.0",
+    "react-country-region-selector": "^1.4.1"
+  }
+}
