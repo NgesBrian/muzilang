@@ -9,6 +9,7 @@ import 'mdbootstrap/css/mdb.min.css';
 import 'mdbootstrap/css/style.css';
 import 'mdbootstrap/css/style.min.css';
 
+import { store } from './_helpers'
 render(
   	<Provider store={store}>
         <App />
