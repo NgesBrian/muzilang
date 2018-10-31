@@ -1,6 +1,5 @@
 {
-  "about.title1": {
-    "defaults": "About Muzikol",
+  "About Muzikol": {
     "origin": [
       [
         "src/About/About.js",
@@ -14,14 +13,6 @@
       [
         "src/About/About.js",
         117
-      ]
-    ]
-  },
-  "About ABEBOH": {
-    "origin": [
-      [
-        "src/About/About.js",
-        137
       ]
     ]
   },

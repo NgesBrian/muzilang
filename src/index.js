@@ -14,21 +14,18 @@ import { Provider } from 'react-redux';
 
 import { store } from './_helpers';
 
-/*# SCSS*/
-import 'react-image-gallery/styles/scss/image-gallery.scss';
-
 /*# CSS*/
 import 'react-image-gallery/styles/css/image-gallery.css';
+import 'react-image-gallery/styles/css/image-gallery-no-icon.css';
 
 /*# Webpack*/
-import 'react-image-gallery/styles/css/image-gallery.css';
+//import 'react-image-gallery/styles/css/image-gallery.css';
 /*
 # Stylesheet with no icons
 node_modules/react-image-gallery/styles/scss/image-gallery-no-icon.scss
 node_modules/react-image-gallery/styles/css/image-gallery-no-icon.css
 */
-import 'react-image-gallery/styles/scss/image-gallery-no-icon.scss';
-import 'react-image-gallery/styles/css/image-gallery-no-icon.css';
+
 
 ReactDOM.render(
 		<Provider store={store}>

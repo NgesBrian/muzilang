@@ -1,0 +1,75 @@
+.release-stats {
+	position:relative;
+	width:100%;
+}
+
+.release-stats-items {
+	display: table;
+}
+
+.release-stats-item {
+	line-height: 80px;
+	text-align: left;
+}
+
+.song-title{
+	line-height: 28px;
+	color: #fff;
+}
+
+.song-author{
+	line-height: 28px;
+	color: #999;
+}
+
+.release-col1{
+    color: #fff;
+    position: relative;
+    text-align: center;
+    top: 80px;
+}
+
+.release-col1-text1{
+    color: red;
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+}
+
+.release-col1-text2{
+    position: relative;
+    text-align: center;
+}
+
+.release-col2{
+    color: #fff;
+    position: relative;
+    top: 80px;
+}
+
+.release-col2-text1{
+    position: relative;
+    font-size: 22px;
+}
+
+.release-col2-text2{
+    position: relative;
+}
+
+.release-col3{
+    color: #fff;
+    position: relative;
+    text-align: center;
+    top: 80px;
+}
+
+.release-col3-text1{
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+}
+
+.release-col3-text2{
+    position: relative;
+    text-align: center;
+}

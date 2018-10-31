@@ -30,8 +30,9 @@ class FooterPage extends React.Component {
             <Footer color="grey lighten-3" className="font-small pt-3">
                 <Container fluid>
                 <button value='en' onClick={this.changeLanguage} >English</button>
-                <button value='cs' onClick={this.changeLanguage} >Spanish</button>
                 <button value='fr' onClick={this.changeLanguage} >French</button>
+                <button value='ar' onClick={this.changeLanguage} >Arabic</button>
+                <button value='ce' onClick={this.changeLanguage} >Chineese</button>
                     <Row>
                         <Col md="12">
                             <div className="muweb-footer-inside">

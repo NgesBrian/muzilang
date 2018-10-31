@@ -1,34 +1,54 @@
+.App {
+  text-align: center;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.center-image{
-     margin: 0 auto;
- }
 @fontface {
   font-family: 'Lato', cursive, sans-serif;
   src: url('https://fonts.googleapis.com/css?family=Bungee+Inline')
 }
 
 .loader:empty {
-	background-image: url(logo.svg);
-	background-repeat: no-repeat;
-	background-position: center; 
-	position: absolute;
-	top: calc(50% - 4em);
-	left: calc(50% - 4em);
-	width: 6em;
-	height: 6em;
-	border: 2px solid rgba(0, 0, 0, 0.2);
-/*	border-left: 2px solid #000000;*/
-	border-radius: 50%;
-	animation: load8 1.1s infinite linear;
+  background-image: url(logo.svg);
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: absolute;
+  top: calc(50% - 4em);
+  left: calc(50% - 4em);
+  width: 6em;
+  height: 6em;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+/*  border-left: 2px solid #000000;*/
+  border-radius: 50%;
+  animation: load8 1.1s infinite linear;
 }
 
 @keyframes load8 {

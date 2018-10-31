@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import { connect } from 'react-redux';
-import About from './About/About.js';
 import FooterPage from './Footer/Footer.js';
+import About from './About/About.js';
 import { I18nProvider } from '@lingui/react';
 
 class App extends Component {
@@ -13,7 +13,7 @@ class App extends Component {
     }
   loadCatalog = async (language) => {
     const catalog = await import(
-      './locales/'+language+'/messages.json')
+      './locales/'+language+'/messages.po')
     this.setState(state => ({
       catalogs: {
         ...state.catalogs,
@@ -36,7 +36,7 @@ class App extends Component {
   }
     render() {
         const { loading } = this.state;
-        const { language } = this.props;
+        const {language } = this.props;
         const { catalogs } = this.state;
         if (!catalogs[language]) return null;
         if(loading) {
@@ -46,7 +46,8 @@ class App extends Component {
         return (
             <I18nProvider language={language} catalogs={catalogs} >
                  <div className="">
-                    <About/>
+                    
+                    <About />
                     <FooterPage />
                 </div>
             </I18nProvider>

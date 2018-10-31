@@ -1,0 +1,61 @@
+.artist-nav2-col {
+    padding: 0px;
+	margin-top: 0px;	
+	margin-bottom: 0px;
+}
+/* add margins to artist-nav on extra-small devices */
+@media screen and (max-width : 678px){
+	.artist-nav2-col {
+		margin-top: -1px;	
+		margin-bottom: 5px;		
+	}
+}
+.artist-nav2-icon {
+	color: #32CD32;
+	font-size: 30px;
+}
+
+@media screen and (max-width : 678px){
+	.artist-nav2-icon {
+		font-size: 20px;
+	}
+	.artist-nav2-text {
+		font-size: 10px;
+	}
+}
+
+.artist-profile-picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/*give a -ve margin-top to this div on devices larger than xs(extra-small devices)*/
+@media screen and (min-width : 678px){
+	.artist-profile-picture-div {
+		margin-top: -110px;
+	}
+}
+
+.artist-stats {
+	position:relative;
+	width:100%;
+}
+
+.artist-stats-items {
+	display: table;
+}
+
+.artist-stats-item {
+	line-height: 40px;
+	text-align: left;
+}
+
+.management > div {
+	font-size: 20px;
+}
+
+.management-line {
+	width: 80%;
+/*	border-bottom: 1px solid black;*/
+}

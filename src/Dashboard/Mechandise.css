@@ -1,0 +1,41 @@
+.mechandise-title{
+	font-size: 22px;
+}
+
+.mechandise-bg {
+/*	background-color: #999;*/
+}
+
+.event-bg {
+    /*background-color: #999;*/
+}
+
+.mechandise-sub-title{
+	text-align: center;
+}
+
+.mechandise-item{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.mechandise-item > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    position: absolute;
+    z-index: -1;
+}
+
+.mechandise-item-text{
+    color: #fff;
+    position: relative;
+    text-align: center;
+    font-weight: bold; 
+    top: 80px;
+}

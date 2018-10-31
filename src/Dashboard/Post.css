@@ -1,0 +1,41 @@
+.User-profile{
+	/*background-color: #A9A9A9;*/
+    background-color: rgb(235, 236, 238);
+}
+
+.post-reactions{
+/*    background-color: rgb(235, 236, 238);*/
+}
+
+/* posts column */
+.posts-column {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/* on small devices */
+@media screen and (max-width: 768px){
+    .posts-column {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.Posts{
+	margin-top: 10px;
+}
+
+.Posts-text{
+	padding: 10px;
+	color: #666;
+}
+
+.like-comment-actions{
+    width:100% !important;
+    display: table !important;
+    border: 1px solid #666;
+    border-top: none;
+}
+
+.like-comment-actions > a {
+    display: table-cell !important;
+}
