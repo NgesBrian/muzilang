@@ -13,7 +13,8 @@ class App extends Component {
     }
   loadCatalog = async (language) => {
     const catalog = await import(
-      './locales/'+language+'/messages.po')
+      '@lingui/loader!./locales/'+language+'/messages.po').then(mod => mod.default)
+    console.log(catalog)
     this.setState(state => ({
       catalogs: {
         ...state.catalogs,
