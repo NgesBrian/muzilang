@@ -10,20 +10,14 @@ class FooterPage extends React.Component {
 
     constructor(props) {   
         super(props);
-        this.state = {
-            language: this.props.language,
-        };
         this.changeLanguage = this.changeLanguage.bind(this);
     }
 
     changeLanguage(event){
         event.preventDefault();
         const {value } = event.target;
-         this.setState({
-            language:value
-         });
         const { dispatch } = this.props;
-        dispatch(languageActions.setLanguage(this.state.language));
+        dispatch(languageActions.setLanguage(value));
     }
     render(){
         return(
